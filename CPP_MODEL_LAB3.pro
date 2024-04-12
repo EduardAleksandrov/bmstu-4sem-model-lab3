@@ -10,10 +10,12 @@ CONFIG += c++11
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    tables.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    tables.h
 
 FORMS += \
     mainwindow.ui
