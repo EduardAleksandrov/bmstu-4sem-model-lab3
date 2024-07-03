@@ -38,7 +38,7 @@ MainWindow::MainWindow(QWidget *parent)
 
             // учитываем, что строка разделяется точкой с запятой на колонки
             int k {0};
-            for (QString item : line.split(" "))
+            for (QString &item : line.split(" "))
             {
                 k++;
                 if(k==1) continue;
